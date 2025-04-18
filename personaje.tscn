@@ -4,8 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://c80p4maxqu48j" path="res://sprites/personaje.png" id="2_cbrg3"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7tk3h"]
-radius = 67.2
-height = 266.0
+radius = 49.0
+height = 222.0
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 script = ExtResource("1_biswt")
@@ -15,5 +15,5 @@ scale = Vector2(5.12618, 5.12618)
 texture = ExtResource("2_cbrg3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-7, 20)
+position = Vector2(-2, 30)
 shape = SubResource("CapsuleShape2D_7tk3h")
