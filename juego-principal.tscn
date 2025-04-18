@@ -5,5 +5,5 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(537, 311)
+position = Vector2(1002, 123)
 texture = ExtResource("1_avjge")
